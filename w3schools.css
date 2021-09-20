@@ -1,0 +1,75 @@
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px ;
+    background-repeat: no-repeat;
+}
+/*input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    cursor:zoom-in ;
+}
+input[type=text]:hover{
+    background-color: burlywood;
+}*/
+/*select{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(198, 246, 248, 0.542);
+    margin-top: 10px;
+}
+.body{
+    counter-reset: section;
+}
+h2::before{
+    counter-increment: section;
+    content: "part "counter(section)":";
+}*/
+.Tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext{
+    /*visibility: hidden;*/
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+@font-face {
+    font-family: ios;
+    src: url("C:\Users\Temmytorpe.Temmytorpe-PC.000\Desktop\w3schools\Montserrat-Italic.ttf");
+}
+
+#myfont{
+    font-family: ios;
+}
+
